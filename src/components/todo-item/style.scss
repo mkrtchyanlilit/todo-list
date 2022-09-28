@@ -1,0 +1,27 @@
+.todo-item {
+    // width: 100%;
+    padding: 10px 20px;
+    label{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .checkbox[type="checkbox"] {
+            accent-color: green;  
+            width: 20px;
+            height: 20px;
+        }
+
+        .update-input{
+                height: 20px;
+                margin: 10px 0px;
+                border: none;
+                padding: 4px;
+                font-size: 18px;
+        }
+    }
+    
+}
+
+// .todo-item-through{
+//     text-decoration: line-through;
+// }
